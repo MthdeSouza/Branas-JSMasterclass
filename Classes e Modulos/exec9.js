@@ -133,12 +133,6 @@ class Database {
   }
 }
 
-
-const database = {
-
-
-};
-
 try {
   const database = new Database()
   database.execute("create table author (id number, name string, age number, city string, state string, country string)");
